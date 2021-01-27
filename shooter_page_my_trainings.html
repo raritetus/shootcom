@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+      <!--Let browser know website is optimized for mobile--> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>shootcom.pro</title>
+      <link rel="shortcut icon" href="images/FAV.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+      <header class="header-second">
+        <!-- =============================== -->
+        <div class="container header-menu"">
+          <nav class=" nav-extended">
+            <div class="nav-wrapper">
+              <a href="index.html"><img class="brand-logo" src="images/logo-w.png"></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Матчи</a></li>
+                <li><a href="#">Тренировки</a></li>
+                <li><a href="#">Семинары</a></li>
+                <li><a href="shooter_page.html">Стрелки</a></li>
+                <li><a href="#">Инструкторы</a></li>
+                <li><a href="#">Клубы</a></li>
+                <li><a href="#">Новости</a></li>
+              </ul>
+            </div>
+          </nav>
+          <div class="log-btn">
+            <a class="waves-effect waves-light btn btn-logout right login">выйти</a>
+          </div>
+        </div>
+      
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="#">Матчи</a></li>
+          <li><a href="#">Тренировки</a></li>
+          <li><a href="#">Семинары</a></li>
+          <li><a href="shooter_page.html">Стрелки</a></li>
+          <li><a href="#">Инструкторы</a></li>
+          <li><a href="#">Клубы</a></li>
+          <li><a href="#">Новости</a></li>
+        </ul>
+      
+        <!-- =============================== -->
+        <!--<nav class="container">
+          <div class="logotype center">
+            <a href="index.html"><img class="brand-logo" src="images/logo-w.png"></a>
+          </div>
+          <div class="nav-wrapper">
+            <ul id="nav-mobile" class="left hide-on-small-only">
+              <li><a href="#">Матчи</a></li>
+              <li><a href="#">Тренировки</a></li>
+              <li><a href="#">Семинары</a></li>
+              <li><a href="shooter_page.html">Стрелки</a></li>
+              <li><a href="#">Инструкторы</a></li>
+              <li><a href="#">Клубы</a></li>
+              <li><a href="#">Новости</a></li>
+            </ul>
+          </div>
+          <div class="log-btn">
+            <a class="waves-effect waves-light btn btn-logout right login">logout</a>
+          </div>
+        </nav>-->
+      </header>
+      <main class="container">
+        <div class="row cabinet">
+          <div class="col m3 s1 left-panel hide-on-med-and-down">
+            <a href="shooter_page.html">Моя страница</a>
+            <a href="shooter_page_my_trainings.html"><span class="badge">18</span>Мои тренировки</a>
+            <a href="" class="btn-menu-active"><span class="badge">3</span>Мои семинары</a>
+            <a href=""><span class="badge">14</span>Матчи</a>
+            <a href=""><span class="badge new">134</span>Сообщения</a>
+            <a href="shooter_page_my-settings.html">Настройки профиля</a>
+          </div>
+          <div class="col m3 s1 left-panel show-on-medium-and-down mobile-menu">
+            <a href="shooter_page.html"><i class="material-icons">account_box</i></a>
+            <a href="shooter_page_my_trainings.html"></span><i class="material-icons">rowing</i></a>
+            <a href="" class="btn-menu-active"></span><i class="material-icons">school</i></a>
+            <a href=""></span><i class="material-icons">local_activity</i></a>
+            <a href=""></span><i class="material-icons">message</i></a>
+            <a href="shooter_page_my-settings.html"><i class="material-icons">settings</i></a>
+          </div>
+          <div class="col m9 s11">
+            <h4 class="center-align">Мои тренировки</h4>
+            <div class="row">
+              <div class="col m8 s12">
+                <!-- Dropdown Trigger -->
+                <a class="dropdown-trigger btn" href="#" data-target="dropdown1">Мои тренировки</a>
+                <!-- Dropdown Structure -->
+                <ul id="dropdown1" class="dropdown-content">
+                  
+                  <li class="divider" tabindex="-1"></li>
+                  <li><a href="#!"><span class="badge">1</span>Все тренировки</a></li>
+                  <li class="divider" tabindex="-1"></li>
+                  <li><a href="#!"><span class="badge">125</span>Запланированные</a></li>
+                  <li class="divider" tabindex="-1"></li>
+                  <li><a href="#!"><span class="badge">10258</span>Прошедшие</a></li>
+                  <li class="divider" tabindex="-1"></li>
+                  <li><a href="#!"><span class="badge">101</span>Созданные мной</a></li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col s12 m6">
+                <div class="card">
+                  <a href="">
+                    <div class="card-image card-image-medium">
+                        <div class="my-card-bg"></div>
+                        <div class="my-card-text-block">                      
+                          <span class="my-card-title">Card Title</span>
+                          <p class="my-card-p">I am a very simple card. I am good at containing small bits of information.
+                          I am convenient because I require little markup to use effectively.</p>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="card-content">
+                    <a href=""><h6>Базовая тренировка по динамической стрельбе из ружья</h6></a>
+                    <time>02-08-2019</time>
+                    <time>09-00</time>
+                  </div>
+                  <div class="card-action my-card-icons">
+                    <div class="icon-element">
+                      <i class="material-icons">account_circle</i>  
+                      <span class="">8/8</span>
+                    </div>
+                    <div class="icon-element">
+                      <i class="material-icons">comment</i>  
+                      <span class="">18</span>
+                    </div>
+                    <div class="icon-element">
+                      <i class="material-icons">thumb_up</i>
+                      <span class="">40258</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col s12 m6">
+                <div class="card event-pass">
+                  <a href="">
+                    <div class="card-image card-image-medium">
+                      <div class="my-card-bg"></div>
+                      <div class="my-card-text-block">
+                        <span class="my-card-title">Card Title</span>
+                        <p class="my-card-p">I am a very simple card. I am good at containing small bits of information.
+                          I am convenient because I require little markup to use effectively.</p>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="card-content">
+                    <a href=""><h6>Базовая тренировка по динамической стрельбе из ружья</h6></a>
+                    <time>02-08-2019</time>
+                    <time>09-00</time>
+                  </div>
+                  <div class="card-action my-card-icons">
+                    <div class="icon-element">
+                      <i class="material-icons">account_circle</i>  
+                      <span class="">2/9</span>
+                    </div>
+                    <div class="icon-element">
+                      <i class="material-icons">comment</i>  
+                      <span class="">18</span>
+                    </div>
+                    <div class="icon-element">
+                      <i class="material-icons">thumb_up</i>
+                      <span class="">40258</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <a class="btn-floating btn-large waves-effect waves-light btn-up"><i class="material-icons">arrow_upward</i></a>
+
+      </main>
+      
+      <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l4 s12">
+              <h5 class="grey-text text-lighten-4">Мероприятия</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Матчи</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Тренировки</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Семинары</a></li>
+              </ul>
+            </div>
+            <div class="col l4 s12">
+              <h5 class="grey-text text-lighten-4">Участники процесса</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Стрелковые клубы</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Инструкторы</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Стрелки</a></li>
+              </ul>
+            </div>
+            <div class="col l4 s12">
+              <h5 class="grey-text text-lighten-4">Связаться с нами</h5>
+              <div class="contacts">
+                <i class="material-icons">email</i>
+                <span>support@shootcom.pro</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2019 Copyright
+          <a class="grey-text text-lighten-4 right" href="#!">SOFTET</a>
+          </div>
+        </div>
+      </footer>
+                
+
+      <!--JavaScript at end of body for optimized loading-->
+      <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems, options);
+          var options = {
+            accordion: true
+          };
+        });
+      </script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <!--<script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.parallax');
+          var instances = M.Parallax.init(elems, options);
+        });
+      </script>-->
+
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.dropdown-trigger');
+          var options = {
+            alignment:'left',
+            constrainWidth: false
+          };
+          var instances = M.Dropdown.init(elems, options);
+        });
+      </script>
+    </body>
+  </html>

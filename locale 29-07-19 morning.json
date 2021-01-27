@@ -1,0 +1,169 @@
+{
+    "ru": {
+        "system": {
+            "btn_in": "Войти",
+            "btn_out": "Выйти",
+            "btn_show_all": "Показать все",
+            "btn_subscribe": "Подписаться",
+            "btn_ok": "",
+            "btn_cancel": "Отмена",
+            "btn_register": "Зарегистрироваться",
+            "btn_add_to_club":"Вступить в клуб",
+            "btn_save": "Сохранить",
+            "btn_add_file":"Файл",
+            "btn_add_workout": "Создать тренировку",
+            "error_msg": ""
+        },
+        "new_user_reg": {
+            "first_name": "Имя",
+            "last_name": "Фамилия",
+            "email": "Электронная почта",
+            "specify_gender": "Укажите пол",
+            "male": "Мужской",
+            "female": "Женский",
+            "birth": "Дата рождения",
+            "phone": "Телефон",
+            "country": "Страна",
+            "city": "Город",
+            "password": "Пароль",
+            "password_confirm": "Подтвердите пароль",
+            "i_am_instructor": "Я инструктор",
+            "func_after_confirm": "Функционал инструктора будет доступен после подтверждения модератора"
+        },
+        "auth_form": {
+            "pls_auth": "Авторизуйтесь пожалуйста",
+            "login": "Логин",
+            "password": "Пароль",
+            "forgot_pass": "Забыли пароль?"
+        },
+        "main-menu": {
+            "matches": "Матчи",
+            "workouts": "Тренировки",
+            "seminars": "Семинары",
+            "shooters": "Стрелки",
+            "instructors": "Инструкторы",
+            "clubs": "Клубы",
+            "news": "Новости"
+        },
+        "footer": {
+            "events": "Матчи",
+            "process_participants": "Участники процесса",
+            "contact_us": "Связаться с нами",
+            "matches": "Матчи",
+            "workouts": "Тренировки",
+            "seminars": "Семинары",
+            "shooters": "Стрелки",
+            "instructors": "Инструкторы",
+            "clubs": "Стрелковые клубы"
+        },
+        "main-page": {
+            "mutches": "Матчи",
+            "workouts": "Тренировки",
+            "news": "Новости",
+            "stay_in_course": "Оставайтесь в курсе событий из стрелковой жизни"
+        },
+        "profile": {
+            "sidebar": {
+                "my_profile": "Моя страница",
+                "my_trainings": "Мои тренировки",
+                "my_seminars": "Мои семинары",
+                "my_matches": "Матчи",
+                "my_messages": "Сообщения",
+                "my-settings": "Настройки профиля"
+            },
+            "my_profile": {
+                "city": "Город",
+                "age": "Возраст",
+                "birth": "Дата рождения",
+                "visit_match": "Участий в матчах",
+                "visit_workouts": "Посещенных тренировок",
+                "visit_seminars": "Прослушанных семинаров",
+                "prize_places": "Призовых мест"
+            },
+            "shooter_page_my_trainings": {
+                "my_tngs": "Мои тренировки",
+                "all_tngs":"Все тренировки",
+                "scheduled_tngs": "Запланированные",
+                "past_tngs": "Прошедшие",
+                "created_tngs": "Созданные мной"
+            },
+            "shooter_page_my-settings": {
+                "prof_settings": "Настройки профиля",
+                "first_name": "Имя",
+                "last_name": "Фамилия",
+                "email": "Электронная почта",
+                "specify_gender": "Укажите пол",
+                "male": "Мужской",
+                "female": "Женский",
+                "birth": "Дата рождения",
+                "phone": "Телефон",
+                "country": "Страна",
+                "city": "Город",
+                "about_myself": "О себе"
+            }
+        },
+        "club_page": {
+            "status": "Статус",
+            "city": "Город",
+            "established": "Основан в ",
+            "club_members": "Члены клуба",
+            "member_name": "Имя",
+            "entry_year": "Год в ступления",
+            "visit_page": "Посетить страницу",
+            "visit_page_link": "Посетить"
+        },
+        "clubs": {
+            "shooters": "Стрелки",
+            "visit_profile": "Посетить"
+        },
+        "event_training_create": {
+            "event_organizer": "Организатор",
+            "event_type": "Событие",
+            "event_workout": "Тренировка",
+            "event_match": "Матч",
+            "event_seminar": "Семинар",
+            "kind_of_sport": "Дисциплина",
+            "ipsc": "IPSC",
+            "idpa": "IDPA",
+            "3gun": "3GUN Nation ",
+            "gssf": "GSSF",
+            "hmr": "HMR",
+            "homedefence": "Самооборонная стрельба",
+            "weapon_type": "Вид оружия",
+            "pistol": "Пистолет",
+            "carabine": "Карабин",
+            "shotgun": "Ружье",
+            "pcc": "Карабин пистолетного калибра",
+            "minirifle": "Миникарабин",
+            "multigun": "Мультиган",
+            "event_name": "Название мероприятия",
+            "event_description": "Описание мероприятия",
+            "participants_level": "Уровень участников",
+            "base": "Базовый",
+            "advanced": "Продвинутый",
+            "mixed": "Смешанный",
+            "address": "Адрес",
+            "event_date": "Дата",
+            "time_from": "С",
+            "time_to": "По",
+            "qty_participants": "Количество участников",
+            "qty_shots": "Количество выстрелов",
+            "prise": "Цена",
+            "extra_info": "Дополнительная информация"
+        },
+        "instructor_page_my_trainings": {
+            "my_tngs": "Мои тренировки",
+            "all_tngs": "Все тренировки",
+            "scheduled_tngs": "Запланированные",
+            "past_tngs": "Прошедшие",
+            "created_tngs": "Созданные мной"
+        },
+        "instructors": {
+            "instructors": "Инструкторы",
+            "instr_statistic_link": "Статистика"
+        },
+    },
+    "en": {
+
+    }
+}

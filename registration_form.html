@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/custom.css"  media="screen,projection"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet"> 
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>shootcom.pro</title>
+      <link rel="shortcut icon" href="images/FAV.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+      
+      <div class="fixed-overlay"></div>
+      <div class="fixed-overlay_modal"> 
+        <!--<div class="modal">-->
+          <div class="modal_container">
+            <h5 class="center-align">Регистрация нового пользователя</h5>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Имя</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Фамилия</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Электронная почта</label>
+            </div>
+
+            <div class="input-field col s6">
+              <i class="material-icons prefix">person</i>
+              <select>
+                <option value="" disabled selected>Укажите пол</option>
+                <option value="1">Мужской</option>
+                <option value="2">Женский</option>
+              </select>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">date_range</i>
+              <input type="text" class="datepicker">
+              <label for="icon_prefix">Дата рождения</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">phone</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Телефон</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">location_on</i>
+              <select>
+                <option value="" selected>Украина</option>
+                <option value="1">США</option>
+                <option value="2">Колумбия</option>
+              </select>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">location_city</i>
+              <select>
+                <option value="" disabled selected>Киев</option>
+                <option value="1">Сиетл</option>
+                <option value="2">Богота</option>
+              </select>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">visibility_off</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Пароль</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">visibility_off</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Подтвердите пароль</label>
+            </div>
+            <div class="input-field col s6">
+              <form class="is-instructor" action="#">
+                <p class="is-instructor-check">
+                  <label>
+                    <input type="checkbox" />
+                    <span>Я инструктор</span>
+                  </label>
+                </p>
+                <p class="is-instructor-pruf">Функционал инструктора будет доступен после подтверждения модератора</p>
+              </form>
+            </div>
+            <div class="btn-reg right">
+              <a class="waves-effect waves-light btn">Зарегистрироваться</a>
+              <a class="waves-effect waves-light btn btn-logout">Отмена</a>
+            </div>
+          </div>
+          
+        <!--</div>-->        
+      </div>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('select');
+          var options = {
+            classes: "",
+            dropdownOptions: {}
+            };
+            var instances = M.FormSelect.init(elems, options);
+          });
+        </script>
+        <script>document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.datepicker');
+          var options = {
+            autoClose: true,
+            container: null
+          };
+          var instances = M.Datepicker.init(elems, options);
+          });
+        </script>
+    </body>
+  </html>
