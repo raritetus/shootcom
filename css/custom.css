@@ -197,6 +197,11 @@ text-align: center;
     background-size: cover;
 }
 
+.card-image:hover {
+    transition: .5s ease;
+    opacity:70%;  
+}
+
 .card-image-large{
     height: 400px;
 }
@@ -366,6 +371,12 @@ span.badge.new {
     top:0;
     opacity: 0.6;
 }
+.my-card-photo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
 .my-card-text-block {
     padding: 5px 15px;
     position: absolute;
@@ -373,14 +384,33 @@ span.badge.new {
     color: white ;
     bottom: 0;
 }
+
+.my-card-info{
+    padding: 5px 15px;
+}
+
 .my-card-title{
     color: white ;
     font-size: 1.5rem;
     font-weight: 600;
 }
+.my-card-title-new {
+    color: #0E294B;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
 
+.my-card-p-new {
+    color: #0E294B;
+}
 .my-card-p {
     color: white ;
+}
+
+.to-instructor {
+    display: block;
+    color: #010208;
+    text-transform: uppercase;
 }
 
 span.badge.my-card-badge {
@@ -404,8 +434,18 @@ span.badge.my-card-badge {
     cursor: pointer;
 }
 
+.icon-element-link {
+    margin-right: 0 !important;
+}
+
 .icon-element i:hover, .icon-element span:hover {
     color: #0E294B;
+    transition: .5s ease;
+}
+
+.icon-element-btn, .icon-element-btn:focus {
+    border: none;
+    background: none;
 }
 
 .icon-element span {
