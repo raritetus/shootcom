@@ -1202,4 +1202,19 @@ ul.dropdown-content li a span.badge {
         margin-bottom: 5px;
     }
 
+    /* ===================tabs=============== */
+
+    .tabssc .tabsc a:hover, .tabssc .tabsc a.active {
+        color: #0e284b !important;
+    }
+
+    .tabssc .tabsc a {
+        color: rgba(71, 89, 111, 1) !important;
+    }
+
+    .tabs .indicator {
+        background-color: #47596f !important;
+    }
+
+
 }
